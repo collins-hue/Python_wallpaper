@@ -21,7 +21,7 @@ for i, color in enumerate(colors, start=1):
     image = Image.new('RGB', (width, height), color)
     
     # Save the image as a .jpg file with a unique name
-    image.save(f'/home/montego/git/Python_wallpaper/media/plain/plain_color_wallpaper{i}.jpg', 'JPEG')
+    image.save(f'/home/montego/git/Python_wallpaper/media/PlainLoop/plain_color_wallpaper{i}.jpg', 'JPEG')
     
     # Optional: Display the image (if running locally)
     image.show()
